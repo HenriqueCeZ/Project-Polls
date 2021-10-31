@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --passWithnoTests",
+    "test:staged": "jest --passWithnoTests"
   },
   "keywords": [],
   "author": "",
